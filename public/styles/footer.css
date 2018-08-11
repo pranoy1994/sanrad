@@ -1,0 +1,111 @@
+.footer {
+    padding: 44px 283px;
+    background-color: #ecececbf;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__text {
+    font-family: BlackerDisplay;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+.footer__text > div:nth-child(2) {
+    margin-top: 37.8px;
+}
+
+.footer__text > div:nth-child(3) {
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.footer__text > div:nth-child(3) > div:nth-child(1) > img {
+    width: 88px;
+}
+.footer__text > div:nth-child(3) > div:nth-child(2) > img {
+    width: 26px;
+}
+.footer__text > div:nth-child(3) > div:nth-child(3) > img {
+    width: 22px;
+}
+.footer__form > form {
+    display: flex;
+    flex-direction: row;
+}
+.form_element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 9px;
+    margin-left: 24px;
+}
+.form_element > label{
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+.form_element > input {
+    width: 240px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #d8d8d8;
+}
+.form_element > button {
+    width: 245px;
+    height: 44px;
+    border-radius: 2px;
+    background-color: #1082cb;
+    margin-top: 15px;
+}
+.form_element > button > div {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.footer_bottom {
+    height: 48px;
+    background-color: #1082cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 280px;
+    margin-top: 10px; 
+}
+.footer_bottom > div:first-child {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.footer_bottom > div:nth-child(2) {
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    text-decoration: underline;
+}

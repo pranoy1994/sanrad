@@ -1,0 +1,21 @@
+@font-face {
+    font-family: BlackerDisplay;
+    src: url(../fonts/Blacker-Display-Regular-trial.ttf);
+}
+body {
+    margin: 0px;
+}
+.app {
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.32)
+}
+
+@media screen and (min-width: 1441px) {
+    .app {
+        height: calc(100% - 38px);
+        top: 19px;
+        width: 1396px;
+    }
+}
