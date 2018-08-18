@@ -86,6 +86,7 @@
     border-radius: 30px;
     background-color: #1082cb;
     margin-bottom: 8px;
+    border: none;
 }
 
 .item_3 > button > div{

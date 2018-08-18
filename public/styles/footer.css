@@ -60,6 +60,8 @@
     border-radius: 2px;
     background-color: #ffffff;
     border: solid 1px #d8d8d8;
+    font-size: 14px;
+    padding-left: 12px;
 }
 .form_element > button {
     width: 245px;
@@ -117,11 +119,10 @@
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.5;
     letter-spacing: normal;
     text-align: justify;
     color: #4c4c4c;
-    padding-left: 12px;
+    
   }
   ::-moz-placeholder {
     font-family: Muli;
@@ -129,11 +130,9 @@
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.5;
     letter-spacing: normal;
     text-align: justify;
     color: #4c4c4c;
-    padding-left: 12px;
   }
   :-ms-input-placeholder {
     font-family: Muli;
@@ -141,11 +140,9 @@
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.5;
     letter-spacing: normal;
     text-align: justify;
     color: #4c4c4c;
-    padding-left: 12px;
   }
   ::placeholder {
     font-family: Muli;
@@ -153,9 +150,7 @@
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.5;
     letter-spacing: normal;
     text-align: justify;
     color: #4c4c4c;
-    padding-left: 12px;
   }
