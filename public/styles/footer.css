@@ -52,7 +52,7 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #4c4c4c;
+    color: #f1f1f1;
 }
 .form_element > input {
     width: 240px;
@@ -109,3 +109,53 @@
     color: #ffffff;
     text-decoration: underline;
 }
+
+
+::-webkit-input-placeholder {
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4c4c4c;
+    padding-left: 12px;
+  }
+  ::-moz-placeholder {
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4c4c4c;
+    padding-left: 12px;
+  }
+  :-ms-input-placeholder {
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4c4c4c;
+    padding-left: 12px;
+  }
+  ::placeholder {
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4c4c4c;
+    padding-left: 12px;
+  }

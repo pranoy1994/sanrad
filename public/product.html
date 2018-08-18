@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sanrad | Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700,900" rel="stylesheet">
+    <link href="styles/app.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/product.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <div id="header"></div>
+        <div class="body">
+            <div class="body__arrow">
+                <img src="images/product/back.png">
+            </div>
+            <div class="body__heading">
+
+            </div>
+
+            <div class="body__product_heading">
+
+            </div>
+
+            <img class="body__image" src="images/product/product.png">
+
+            <div class="body__description">
+                <div>
+                    <p>PRIME FEATURES</p>
+                    <ul id="features">
+
+                    </ul>
+                    <div>
+                        <button>Download Product Brochure</button>
+                        <button>Sales Flyer</button>
+                    </div>
+                </div>
+
+                <div>
+                    <div id="description_1">
+                        
+                    </div>
+
+
+
+
+                    <div>
+                        <p>A compilation of industry / product specific layouts, guidelines and best practice hyperlinks for reference:</p>
+
+                        <div>
+                            <label>e-Licensing of Radiation Applications (eLORA) System Guidelines</label>
+                            <button style="width: 384px">Medical Diagnostic Radiology Module (AERB)</button>
+                        </div>
+                        <div>
+                            <label>CT & MRI Scanners — Layout</label>
+                            <button>Layout Blueprint</button>
+                        </div>
+                        <div>
+                            <label>CT Scanners — Layout</label>
+                            <button>Layout Blueprint</button>
+                        </div>
+                        <div>
+                            <label>XMDT MR — Layout</label>
+                            <button>Layout Blueprint</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body__section_5">
+                <img src="images/product-listing/section_5/image.png">
+                <div>
+                    <div>The best service experience in Diagnostic Imaging</div>
+                    <div>
+                        <p>Sanrad’s actions are supported by the investments we make in the people we hire and network facilities we build across the country. Our focus towards our clients has been to maintain a low ratio of customers-to-engineers and customers-to-service managers, so we have the necessary workforce to be responsive and uphold our promised up-time commitments.</p>
+                        <p>With dedicated and competent people at the helm, our clients will be provided with timely, friendly and helpful service at every touch-point from sales to function with the availability of spares, always.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- Footer -->
+        <div id="footer"></div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $('#header').load('partials/header.html');
+            $('#footer').load('partials/footer.html');
+        })
+
+        var contentJSON = [{
+            heading : "Magnetic Resonance Imaging — MRI Scanners",
+            subHeading: "Sina Healthcare MSTAR MPF 4500",
+            features: ['Non-Claustrophobic Design', 'Optimal Gradient Imaging', 'Optimal Gradient Imaging'],
+            description_1: "<p>The mStar MPF 4500, with a field strength of 0.45T, is a truly state-of-the art system capable of delivering images comparable to those provided by super-conductive units at the cost of a permanent magnet system with the increased advantages of being ready for interventional procedures and providing increased patient comfort.</p>",
+        },
+        {
+            heading : "Magnetic Resonance Imaging — MRI Scanners",
+            subHeading: "Toshiba Excelart Vantage 1.5T",
+            features: ['Proprietary Acoustic Technology ', 'Parallel Imaging Technology', 'Clinical Accuracy'],
+            description_1: "<p>The 1.5T, Excelart Vantage™ is the perfect high-field MRI system to conduct a wide range of advanced diagnostic imaging applications to aid in the early diagnosis of life-threatening diseases. <br><br>At the heart of the line’s success is Toshiba’s patented Pianissimo™ technology, which reduces acoustic noise by almost 90 percent, reducing the most significant cause of patient anxiety and often eliminating the need for anti-anxiety medication or sedation during routine scans. </p>",
+        },
+
+        {
+            heading : "Computed-Axial Tomography — CT Scanners",
+            subHeading: "Toshiba Asteion Super 4",
+            features: ['Dosimetric Performance', 'Parallel Imaging Technology', 'Fast Image Reconstruction'],
+            description_1: "<p>This new addition to Toshiba's multi-slice family combines high-end detector technology and reconstruction algorithms with an easy to use single console interface, providing exceptional image quality for all CT examinations.<br><br>Outstanding reconstruction speed and automated MPR generation of true isotropic data extend your diagnostic capabilities and push productivity forward.</p>",
+        },
+        {
+            heading : "Computed-Axial Tomography — CT Scanners",
+            subHeading: "Toshiba Activion 16",
+            features: ['Double Slice Technology', 'Quantum Detector Tech', 'Low Dose Scanning'],
+            description_1: "<p>The Activion16 offers fast advanced acquisitions through easy operation by just three steps: Ready (select the scan region) – Set (perform scan planning) – Go (start scanning).<br><br>Extremely low-dose scanning, combined with a fast scan protocol and Quantum De-noising software, enables crystal clear, high resolution images, further expanding diagnostic capabilities. New volume rendering software also ensures simple 3-D image generation.</p>",
+        },
+        {
+            heading : "Computed-Axial Tomography — CT Scanners",
+            subHeading: "Toshiba Aquilion 64",
+            features: ['High Speed Scans', 'High Spatial Resolution', 'Quantum Denoising Software (QDS)'],
+            description_1: "<p>The Aquilion 64 lifts the award winning Aquilion multi-slice CT platform to a new benchmark. It is twice as fast as a 32 detector row CT system and comes with workflow-enhancing software that delivers unsurpassed image quality, improved dose management and superior patient care.<br><br>In a single breath-hold of 6-10 seconds, the Aquilion 64 can capture superior, precise images of the heart to help early detection of heart diseases.</p>",
+        },
+        {
+            heading : "Computed-Axial Tomography — CT Scanners",
+            subHeading: "Toshiba Alexion 16",
+            features: ['Industry’s Largest Aperture', 'Five Scans (Field of view)', 'Slip-Ring Technology'],
+            description_1: "<p>Alexion, a new 16-row multi-slice CT scanner from Toshiba incorporates high-end technology in a compact design.<br><br>It has been developed as the new entry-level multi-slice CT system for customers who need to perform a wide variety of routine clinical examinations. In order to meet the demands of healthcare providers, Alexion has also been designed from the ground up to be easy to use and to provide consistent examinations at low doses.</p>",
+        },
+
+        {
+            heading : "Computed-Axial Tomography — CT Scanners",
+            subHeading: "Toshiba Aquilion CX 128",
+            features: ['Toshiba Aquilion CX 128', 'Quantum Detector Technology', '128 Unique Slices per Rotation'],
+            description_1: "<p>Designed for outstanding performance, the new Aquilion CX comes standard with highest performance allowing clinicians to improve their clinical results with fewer resources in less time and patient dose. The multi-slice Helical CT system supports whole-body scanning. <br><br>A host of exclusive, ergonomic features increase patient comfort and operator convenience while making procedures safer and more efficient.</p>",
+        },
+
+        {
+            heading : "Magnetic Resonance Imaging — MRI Scanners",
+            subHeading: "Sina Healthcare Centauri MPF 3000 0.3T",
+            features: ['High Image Resolution', 'Two Pole Comfort Structure', 'Automatic Patient Handling'],
+            description_1: "<p>The permanent magnet MRI Centauri MPF 3000 takes advantage of Dynamic Balancing technology (DBT) innovated by XinAoMDT to achieve high image resolution, signal-to-noise ratio and contrast, and fast acquisition enabling advanced clinical application in permanent magnetic resonance imaging systems.</p>",
+        },
+    ]
+        
+
+        var param = window.location.search.split('?')[1];
+
+        renderData(param);
+        function renderData(param) {
+            var page=param.split('=')[1];
+            var data = contentJSON[page-1];
+            $('.body__heading').html(data.heading);
+            $('.body__product_heading').html(data.subHeading);
+            
+            data.features.forEach(function(f) {
+                $('#features').append('<li>'+f+'</li>');
+            })
+
+            $('#description_1').html(data.description_1);
+            $('#description_1').append('<p style="  height: 1px;background-color: #1082cb;margin-top:29px"></p>');
+        }
+
+    </script>
+</body>
+</html>

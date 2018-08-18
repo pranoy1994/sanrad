@@ -1,0 +1,197 @@
+.body {
+    padding: 0px 233px;
+}
+.body__arrow > img{
+    width: 48px;
+    object-fit: contain;
+    margin-top: 38px;
+}
+.body__heading {
+    margin-top: 59px;
+    font-family: BlackerDisplay;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+.body__product_heading {
+    font-family: 'Muli', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #4c4c4c;
+    margin-top: 58px;
+}
+.body__image {
+    width: 960px;
+    object-fit: contain;
+    margin-left: -10px;
+    margin-top: 28px;
+}
+.body__description {
+    display: flex;
+    margin-top: 67px;
+}
+.body__description > div:first-child{
+    width: 100%;
+}
+.body__description > div:first-child > p {
+    font-family: BlackerDisplay;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4c4c4c;
+    margin-left: -208px;
+}
+.body__description > div:first-child > ul {
+    font-family: BlackerDisplay;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    color: #4c4c4c;
+    list-style-image: url('../images/product/star.png');
+    margin-left: -18px;
+}
+.body__description > div:nth-child(2) > div:first-child > p{
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4c4c4c;
+}
+.body__description > div:nth-child(2) > div:nth-child(2){
+    margin-top: 29px;
+}
+.body__description > div:nth-child(2) > div:nth-child(2) > p{
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4c4c4c;
+}
+.body__description > div:nth-child(2) > div:nth-child(2) div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.body__description > div:nth-child(2) > div:nth-child(2) div > label{
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4c4c4c;
+}
+
+.body__description > div:nth-child(2) > div:nth-child(2) > div > button {
+    height: 40px;
+    border-radius: 30px;
+    background-color: #1082cb;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding: 0px 16px;
+    width: 172px;
+}
+.body__description > div:first-child > div {
+    line-height: 5;
+    margin-top: 60px;
+}
+.body__description > div:first-child > div > button {
+    width: 222px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #1082cb;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.body__description > div:first-child > div > button:first-child {
+    width: 250px;
+}
+.body__description > div:first-child > div > button:nth-child(2) {
+    width: 116px;
+}
+
+.body__section_5 {
+    height: 320px;
+    background-color: #f7f7f7;
+    margin-left: -233px;
+    margin-right: -233px;
+    margin-top: 111px;
+    padding: 0px 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.body__section_5 > img {
+    width: 144px;
+    object-fit: contain;
+}
+.body__section_5 > div {
+    margin-left: 91px;
+}
+.body__section_5 > div > div:first-child {
+    font-family: BlackerDisplay;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+.body__section_5 > div > div:nth-child(2) {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4c4c4c;
+}
+
+.body__section_5 > div > div:nth-child(2) > p {
+    margin-top: 31px;
+}
+
+.body__description > div:nth-child(2) {
+    width: 1600px;
+}

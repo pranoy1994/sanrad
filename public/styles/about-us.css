@@ -1,0 +1,292 @@
+.body {
+    padding: 0px 233px;
+}
+.body__arrow > img{
+    width: 48px;
+    object-fit: contain;
+    margin-top: 38px;
+}
+.body__navigation {
+    width: 720px;
+    margin-top: 44px;
+}
+.body__navigation > div {
+    display: flex;
+    justify-content: space-between;
+    font-family: BlackerDisplay;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+.body__navigation > div > p{
+    cursor: pointer;
+}
+.body__content {
+    display: grid;
+    grid-template-columns: 24% 76%;
+    margin-top: 70px;
+}
+.body__content > div:first-child {
+    text-align: center;
+    line-height: 7;
+}
+.body__content > div:first-child > img{
+    width: 144px;
+}
+
+
+
+/* About Sanrad CSS */
+.about_sanrad {
+    margin-left: 44px;
+}
+.heading {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+.content {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4c4c4c;
+    padding-bottom: 17px;
+}
+
+.image_label {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.image_label > div > img {
+    width: 69px;
+    object-fit: contain;
+}
+.image_label > div > div {
+    margin-left: 23px;
+}
+.image_label > div > div > label {
+    font-family: BlackerDisplay;
+    font-weight: bold;
+}
+.image_label > div > div > div {
+    font-family: BlackerDisplay;
+    font-size: 16px;
+}
+.image_label > div {
+    display: flex;
+    align-items: center;
+}
+.content > p{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.leadership {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    grid-column-gap: 25px;
+    margin-top: 43px;
+}
+
+.leadership > div {
+    text-align: -webkit-center;
+}
+.leadership__image{
+    width: 240px;
+}
+.leadership__name {
+    font-family: BlackerDisplay;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+.leadership__description {
+    opacity: 0.6;
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4c4c4c;
+    width: 316px;
+}
+.body__arrow_top > img{
+    width: 90px;
+    object-fit: contain;
+    margin-top: 38px;
+    margin-bottom: 88px;
+}
+
+/* Our history */
+.our_history {
+    margin-left: 44px;
+}
+.numbers {
+    display: flex;
+    margin-top: 14px;
+}
+.numbers > div > label {
+    font-family: 'Muli', sans-serif;
+    font-size: 72px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+.numbers > div:nth-child(2) {
+    margin-left: 107px;
+}
+.numbers > div > p {
+    margin-top: 0px;
+}
+.dates {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.dates__content {
+    margin-top: 32px;
+}
+.dates__content > div {
+    display: flex;
+    align-items: center;
+}
+.dates__content > div > img {
+    width: 24px;
+}
+.dates__content > div > label {
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1082cb;
+    margin-left: 8px;
+}
+.dates__content > p {
+    width: 143px;
+    font-size: 12px;
+}
+
+.the_date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.the_date > div {
+    display: flex;
+    align-items: center;
+}
+.the_date > div > img {
+    width: 24px;
+    margin-top: 29px;
+}
+.the_date > div > label {
+    font-size: 72px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1082cb;
+    margin-left: 8px;
+}
+.the_date > p{
+    margin-top: 0px;
+    margin-right: 40px;
+}
+
+
+
+/* Awards */
+.awards {
+    margin-left: 44px;
+}
+.middle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 73px;
+    padding-bottom: 70px;
+}
+.middle > div{
+    font-family: BlackerDisplay;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+
+/* customer care */
+.customer_care {
+    margin-left: 44px;
+}
+
+.description {
+    display: flex;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+.description > div:nth-child(2) {
+    margin-left: 75px;
+}
+.description > div > label {
+    font-size: 72px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+.description > div > label > span {
+    font-size: 34px;
+}
+.description > div > p {
+    font-size: 12px;
+}
+
+/* partner */
+.partner {
+    margin-left: 44px;
+}
+.partner > div:nth-child(2) > img {
+    width: 266px;
+    float: right;
+}
+.partner > div:nth-child(3) {
+    margin-top: 55px;
+}

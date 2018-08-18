@@ -5,6 +5,7 @@
 .body__section_1 {
     display: flex;
     align-items: center;
+    padding-top: 80px;
 }
 
 .banner_1 {
@@ -16,6 +17,8 @@
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.32);
     padding: 32px 32px;
     z-index: 999999;
+    position: relative;
+    left: 60px;
 }
 
 .banner_1__header {
@@ -63,11 +66,11 @@
 }
 
 .banner_2 {
-    position: relative;
-    right: 55px;
+    /* position: relative;
+    right: 55px; */
 }
 .banner_2__image_container > img{
-    width: 594px;
+    /* width: 594px; */
 }
 
 .body__section_2 {
@@ -113,7 +116,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 28px;
+    padding: 28px 12px;
 }
 .body__section_3 > div > div:nth-child(2) {
     width: 300px
@@ -191,6 +194,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 0px 12px;
 }
 .body__section_4 > div:last-child{
     width: 216px;
